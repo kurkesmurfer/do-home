@@ -17,6 +17,7 @@
 		1619D5A815A44742000F494F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1619D58815A44742000F494F /* Cocoa.framework */; };
 		1619D5B015A44742000F494F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1619D5AE15A44742000F494F /* InfoPlist.strings */; };
 		1619D5B315A44742000F494F /* do_homeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1619D5B215A44742000F494F /* do_homeTests.m */; };
+		1619D5BE15A44906000F494F /* home.c in Sources */ = {isa = PBXBuildFile; fileRef = 1619D5BD15A44906000F494F /* home.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +36,24 @@
 		1619D58B15A44742000F494F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1619D58C15A44742000F494F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1619D58D15A44742000F494F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1619D59015A44742000F494F /* do@home-Info.plist */ = {isa = PBXFileReference; path = "do@home-Info.plist"; sourceTree = "<group>"; };
+		1619D59015A44742000F494F /* do@home-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "do@home-Info.plist"; sourceTree = "<group>"; };
 		1619D59215A44742000F494F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1619D59415A44742000F494F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1619D59615A44742000F494F /* do@home-Prefix.pch */ = {isa = PBXFileReference; path = "do@home-Prefix.pch"; sourceTree = "<group>"; };
+		1619D59615A44742000F494F /* do@home-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "do@home-Prefix.pch"; sourceTree = "<group>"; };
 		1619D59815A44742000F494F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		1619D59A15A44742000F494F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1619D59A15A44742000F494F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1619D59B15A44742000F494F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1619D59E15A44742000F494F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1619D5A515A44742000F494F /* do@homeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "do@homeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1619D5A615A44742000F494F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1619D5AD15A44742000F494F /* do@homeTests-Info.plist */ = {isa = PBXFileReference; path = "do@homeTests-Info.plist"; sourceTree = "<group>"; };
+		1619D5AD15A44742000F494F /* do@homeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "do@homeTests-Info.plist"; sourceTree = "<group>"; };
 		1619D5AF15A44742000F494F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1619D5B115A44742000F494F /* do_homeTests.h */ = {isa = PBXFileReference; path = do_homeTests.h; sourceTree = "<group>"; };
+		1619D5B115A44742000F494F /* do_homeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = do_homeTests.h; sourceTree = "<group>"; };
 		1619D5B215A44742000F494F /* do_homeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = do_homeTests.m; sourceTree = "<group>"; };
+		1619D5BC15A448DF000F494F /* RFXtrx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFXtrx.h; path = ../../../../../Users/peet/Documents/Electronica/RFXtrx.h; sourceTree = "<group>"; };
+		1619D5BD15A44906000F494F /* home.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = home.c; sourceTree = "<group>"; };
+		1619D5BF15A45020000F494F /* home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = home.h; sourceTree = "<group>"; };
+		16870F6415B6C9F600726DDA /* homeFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeFix.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,10 @@
 			children = (
 				1619D59A15A44742000F494F /* AppDelegate.h */,
 				1619D59B15A44742000F494F /* AppDelegate.m */,
+				1619D5BD15A44906000F494F /* home.c */,
+				1619D5BC15A448DF000F494F /* RFXtrx.h */,
+				1619D5BF15A45020000F494F /* home.h */,
+				16870F6415B6C9F600726DDA /* homeFix.h */,
 				1619D59D15A44742000F494F /* MainMenu.xib */,
 				1619D58F15A44742000F494F /* Supporting Files */,
 			);
@@ -198,7 +207,7 @@
 		1619D57B15A44742000F494F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = Almende;
 			};
 			buildConfigurationList = 1619D57E15A44742000F494F /* Build configuration list for PBXProject "do@home" */;
@@ -263,6 +272,7 @@
 			files = (
 				1619D59515A44742000F494F /* main.m in Sources */,
 				1619D59C15A44742000F494F /* AppDelegate.m in Sources */,
+				1619D5BE15A44906000F494F /* home.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +446,7 @@
 				1619D5B815A44742000F494F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1619D5B915A44742000F494F /* Build configuration list for PBXNativeTarget "do@homeTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +455,7 @@
 				1619D5BB15A44742000F494F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
